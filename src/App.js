@@ -1,10 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from './Components/Nav/Nav';
+import Landing from './Components/Landing/Landing';
 
 function App() {
   return (
-    <Nav></Nav>
+    <main>
+      <body>
+        <Nav></Nav>
+        <div className="wp_content">
+          <Landing></Landing>
+        </div>
+      </body>
+    </main>
   )
 }
 
