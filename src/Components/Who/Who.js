@@ -16,6 +16,7 @@ function Who() {
       initial="initial"
       animate="animate"
       exit="exit"
+      transition={{ duration: 0.5 }}
     >
       <h1>This the the "Who I Am" page.</h1>
     </motion.div>

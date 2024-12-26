@@ -23,12 +23,12 @@ function AnimateRoutes() {
 function App() {
   return (
     <Router>
-      <main>
-        <body className='wp_content'>
-          <Nav></Nav>
+      <div className="wp_app">
+        <Nav />
+        <main className="wp_content">
           <AnimateRoutes />
-        </body>
-      </main>
+        </main>
+      </div>
     </Router>
   )
 }
